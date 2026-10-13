@@ -62,23 +62,3 @@ Because the project is just beginning, current work focuses on:
 2. Creating the weekly planning and task breakdown views.
 3. Adding the weekly review dashboard.
 4. Setting up local data storage on the user's computer.
-
-## Website
-
-[Open the Poppy website](https://poppy-small-steps.bronzegrass16.chatgpt.site/)
-
-The complete introduction website is included in [`website/`](website/). It contains the responsive English page, interactive Poppy expressions, WhatsApp join buttons, images and local fonts.
-
-- [Website source and setup guide](website/README.md)
-- [Main page](website/index.html)
-- [Styles](website/styles.css)
-- [Interactions](website/app.js)
-
-Run it locally from this repository:
-
-```sh
-python -m http.server 4173 --directory website
-```
-
-Then open `http://localhost:4173`. No dependency installation or build step is required.
-
